@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Index Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f8ff;
+        }
+
+        header {
+            text-align: center;
+            padding: 10px;
+            background-color: #4682b4;
+            color: white;
+        }
+
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4682b4;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4682b4;
+            color: white;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: auto;
+        }
+
+        .contact-form label {
+            margin-top: 10px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Website</h1>
+    <p>Your go-to place for all things related to my projects and interests.</p>
+</header>
+
+<nav>
+    <a href="desktop/23bce2000/home.html">Home</a>
+    <a href="desktop/23bce2000/list.html">List</a>
+    <a href="desktop/23bce2000/table.html">Table</a>
+    <a href="desktop/23bce2000/comparison.pdf">Comparison</a>
+    <a href="desktop/23bce2000/form.html">Form</a>
+    <a href="desktop/23bce2000/formele.html">Form Elements</a>
+    <a href="desktop/23bce2000/semantic.html">Semantic HTML</a>
+    <a href="desktop/23bce2000/inline.html">Inline HTML</a>
+</nav>
+
+<section>
+    <h2>Blog Page</h2>
+    <p>Check out my latest video:</p>
+    <iframe width="560" height="315" src="file:///desktop/23bce2000/activity5.mp4" frameborder="0" allowfullscreen></iframe>
+</section>
+
+<section>
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 My Website </p>
+</footer>
+
+</body>
+</html>
