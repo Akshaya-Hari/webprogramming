@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Form</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Form Elements</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br><br>
+
+            <label for="hobbies">Hobbies:</label><br>
+            <input type="checkbox" id="hobby1" name="hobbies" value="Reading">
+            <label for="hobby1">Reading</label><br>
+            <input type="checkbox" id="hobby2" name="hobbies" value="Traveling">
+            <label for="hobby2">Traveling</label><br><br>
+
+            <label for="options">Options:</label>
+            <select id="options" name="options" size="3">
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+            </select><br><br>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4" cols="30"></textarea><br><br>
+
+            <label for="color">Pick a color:</label>
+            <input type="color" id="color" name="color"><br><br>
+
+            <label for="date">Pick a date:</label>
+            <input type="date" id="date" name="date"><br><br>
+
+            <label for="datalist-example">Choose an option:</label>
+            <input list="examples" id="datalist-example" name="example">
+            <datalist id="examples">
+                <option value="Example 1">
+                <option value="Example 2">
+                <option value="Example 3">
+            </datalist><br><br>
+
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
