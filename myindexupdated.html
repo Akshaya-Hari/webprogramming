@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .banner-image {
+            background-image: url('path/to/your/banner-image.jpg'); /* Replace with your banner image path */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .banner-text-area {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .banner-text-area h1 {
+            color: #fff;
+            font-size: 3em;
+        }
+
+        .banner-text-area h2 {
+            color: #fff;
+            font-size: 1.5em;
+        }
+
+        nav {
+            background-color: #4682b4;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .signup-login {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .signup-login h2 {
+            color: #4682b4;
+        }
+
+        .signup-login form {
+            margin-bottom: 20px;
+        }
+
+        .signup-login label {
+            display: block;
+        }
+
+        .signup-login input {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-top: 5px;
+        }
+
+        .signup-login button {
+            background-color: #4682b4;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+        }
+
+        .signup-login button:hover {
+            background-color: #315f8d; /* Darker shade on hover */
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .video-section {
+            text-align: center; /* Center the video */
+            margin-top: 20px; /* Add some space above */
+        }
+    </style>
+</head>
+<body>
+
+<header class="banner-image">
+    <div class="banner-text-area">
+        <h1>Welcome to My Website</h1>
+        <h2>Your journey starts here</h2>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="desktop/23bce2000/home.html">Home</a></li>
+        <li><a href="desktop/23bce2000/list.html">List</a></li>
+        <li><a href="desktop/23bce2000/table.html">Table</a></li>
+        <li><a href="desktop/23bce2000/comparison.pdf">Comparison</a></li>
+        <li><a href="desktop/23bce2000/form.html">Form</a></li>
+        <li><a href="desktop/23bce2000/formele.html">Form Elements</a></li>
+        <li><a href="desktop/23bce2000/semantic.html">Semantic HTML</a></li>
+        <li><a href="desktop/23bce2000/inline.html">Inline HTML</a></li>
+    </ul>
+</nav>
+
+<section class="signup-login">
+    <h2>Sign Up</h2>
+    <form action="#" method="post">
+        <label for="signup-email">Email:</label>
+        <input type="email" id="signup-email" name="signup-email" required>
+
+        <label for="signup-password">Password:</label>
+        <input type="password" id="signup-password" name="signup-password" required>
+
+        <button type="submit">Sign Up</button>
+    </form>
+
+    <h2>Login</h2>
+    <form action="#" method="post">
+        <label for="login-email">Email:</label>
+        <input type="email" id="login-email" name="login-email" required>
+
+        <label for="login-password">Password:</label>
+        <input type="password" id="login-password" name="login-password" required>
+
+        <button type="submit">Login</button>
+    </form>
+</section>
+
+<div class="video-section">
+    <h2>Watch My Video</h2>
+    <video width="560" height="315" controls>
+      <source src="desktop/23bce2000/activity5.mp4" type='video/mp4'>
+      Your browser does not support the video tag.
+    </video>
+</div>
+
+<footer>
+    <p>&copy; 2025 My Website | Current Date: Monday, January 20, 2025, 11 PM IST</p>
+</footer>
+
+</body>
+</html>
